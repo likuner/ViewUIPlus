@@ -3,11 +3,11 @@
     .@{className}-enter-active, .@{className}-appear {
         opacity: 0;
         animation-timing-function: linear;
-        animation-duration: @transition-time;
+        animation-duration: var(--transition-time);
     }
     .@{className}-leave-active {
         animation-timing-function: linear;
-        animation-duration: @transition-time;
+        animation-duration: var(--transition-time);
     }
 }
 

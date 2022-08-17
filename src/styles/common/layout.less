@@ -67,7 +67,7 @@
 // Columns, offsets, pushes, and pulls for the small device range, from phones
 // to tablets.
 
-@media (min-width: @screen-sm-min) {
+@media (min-width: var(--screen-sm-min)) {
     .make-grid(-sm);
 }
 
@@ -76,7 +76,7 @@
 //
 // Columns, offsets, pushes, and pulls for the desktop device range.
 
-@media (min-width: @screen-md-min) {
+@media (min-width: var(--screen-md-min)) {
     .make-grid(-md);
 }
 
@@ -85,7 +85,7 @@
 //
 // Columns, offsets, pushes, and pulls for the wide desktop device range.
 
-@media (min-width: @screen-lg-min) {
+@media (min-width: var(--screen-lg-min)) {
     .make-grid(-lg);
 }
 
@@ -94,7 +94,7 @@
 //
 // Columns, offsets, pushes, and pulls for the full hd desktop device range.
 
-@media (min-width: @screen-xl-min) {
+@media (min-width: var(--screen-xl-min)) {
     .make-grid(-xl);
 }
 
@@ -103,6 +103,6 @@
 //
 // Columns, offsets, pushes, and pulls for the large desktop device range.
 
-@media (min-width: @screen-xxl-min) {
+@media (min-width: var(--screen-xxl-min)) {
     .make-grid(-xxl);
 }
